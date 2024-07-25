@@ -8,6 +8,8 @@ This module implements the K-means clustering algorithm to assign points from a 
 - [Requirements](#requirements)
 - [Function Descriptions](#function-descriptions)
 - [File Descriptions](#file-descriptions)
+- [Usage](#usage)
+- [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -39,6 +41,25 @@ pip install numpy matplotlib
 ## File Descriptions
 
 - `miw_s22326_task02.py`: Main script containing the K-means clustering algorithm and related functions.
+
+## Usage
+
+To run the K-means clustering script, use the following command:
+```bash
+miw_s22326_task02.py <data_path> <out_path> <plot_path> <num_clusters>
+```
+## Results
+
+### Cluster Assignments and Centroids:
+The number of clusters and their centroids are saved to the specified output file. Each centroid represents the mean position of all points in its cluster.
+
+### Cluster Visualization:
+The plot shows the clusters with different colors. Each cluster's centroid is marked with an 'x'.
+
+Points are colored based on cluster assignment.
+Centroids are marked with 'x' and are in the same color as their cluster points.
+This visualization demonstrates the successful grouping of points into distinct clusters by the K-means algorithm.
+![Output](output_image.png)
 
 ## Contributing
 
